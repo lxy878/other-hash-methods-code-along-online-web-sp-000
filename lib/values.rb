@@ -12,5 +12,6 @@ def get_the_values(groceries)
   #code your solution here!
   groceries.values.collect do |item|
     item
+    binding.pry
   end
 end
